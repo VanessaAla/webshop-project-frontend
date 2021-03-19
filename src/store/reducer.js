@@ -1,9 +1,8 @@
 import { combineReducers } from "redux";
-// import someFeatureReducer from "./someFeature/reducer";
+import productsSliceReducer from "./products/reducer";
 
 const reducer = combineReducers({
-  // someFeature: someFeatureReducer
-  // etc...
+  products: productsSliceReducer,
 });
 
 export default reducer;
